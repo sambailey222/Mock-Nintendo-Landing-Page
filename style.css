@@ -1,0 +1,88 @@
+#header-img {
+  width: 400px;
+}
+
+.logo {
+  width: 60vw;
+  padding-left: 50px;
+}
+
+#header {
+  display:flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+ padding-top: 20px;
+ background-color: white;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  color: red;
+  font-family: 'Michroma', sans-serif;
+  margin-left: auto;
+  width: 35vw;
+}
+
+.nav-link {
+  padding-left: 50px;
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  text-decoration: none;
+  color:red;
+}
+
+.title-text {
+  color: red;
+  font-family: 'Michroma', sans-serif;
+  text-align: center;
+}
+
+.black-text {
+  font-family: 'Michroma', sans-serif;
+  text-align: center;
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-div {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.box {
+  padding-left: 40px;
+}
+
+footer {
+  background-color: red;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: right;
+  font-family: 'Michroma', sans-serif;
+  font-size: 10px;
+}
+
+@media sceen and (max-width: 710px) {
+  #nav-bar {
+    display: inline;
+  }
+}
+
+
+
